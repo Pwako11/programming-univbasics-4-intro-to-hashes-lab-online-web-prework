@@ -3,7 +3,11 @@ def new_hash
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  my_hash = Hash.new
+  
+  my_hash[shoe] = "Jordan"
+  my_hash[size] = 11
+  my_hash[color] = "black"
 end
 
 def pioneer
