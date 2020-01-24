@@ -15,7 +15,7 @@ end
 def id_generator
   id_generator = Hash.new 
   
-  id_generator[:id] = 2 
+  id_generator = {:id => 2 } 
 end
 
 def my_hash_creator(key, value)
