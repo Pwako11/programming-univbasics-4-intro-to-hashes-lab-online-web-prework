@@ -5,9 +5,9 @@ end
 def my_hash
   my_hash = Hash.new
   
-  my_hash[shoe] = "Jordan"
-  my_hash[size] = 11
-  my_hash[color] = "black"
+  my_hash[:shoe] = "Jordan"
+  my_hash[:size] = 11
+  my_hash[:color] = "black"
 end
 
 def pioneer
