@@ -9,7 +9,7 @@ end
 
 def pioneer
   pioneer = Hash.new 
-  pioneer = { :name => "Grace Hoper" }
+  pioneer = { :name => "Grace Hopper" }
 end
 
 def id_generator
